@@ -15,7 +15,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/gallery_styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" style="padding-top: 75px;">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
             <div class="container">
@@ -34,49 +34,93 @@
             </div>
         </nav>
         <!-- Gallery-->
-        <div class="row">
-          <div class="column">
-            <img src="assets/img/gallery/gallery1.jpg">
-            <img src="assets/img/gallery/gallery30.jpg">
-            <img src="assets/img/gallery/gallery14.jpg">
-            <img src="assets/img/gallery/gallery2.jpg">
-            <img src="assets/img/gallery/gallery29.jpg">
-            <img src="assets/img/gallery/gallery15.jpg">
-            <img src="assets/img/gallery/gallery21.jpg">
-            <img src="assets/img/gallery/gallery25.jpg">
+        <div class="row m-1">
+          <div class="column col-md-4">
+            <img src="assets/img/gallery/gallery1.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery30.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery18.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery11.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery14.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery2.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery29.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery15.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery21.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery25.jpg" class="rounded">
           </div>
-          <div class="column">
-            <img src="assets/img/gallery/gallery4.jpg">
-            <img src="assets/img/gallery/gallery16.jpg">
-            <img src="assets/img/gallery/gallery28.jpg">
-            <img src="assets/img/gallery/gallery6.jpg">
-            <img src="assets/img/gallery/gallery17.jpg">
-            <img src="assets/img/gallery/gallery33.jpg">
-            <img src="assets/img/gallery/gallery7.jpg">
+          <div class="column col-md-4">
+            <img src="assets/img/gallery/gallery4.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery16.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery28.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery6.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery23.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery12.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery17.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery33.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery24.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery7.jpg" class="rounded">
           </div>
-          <div class="column">
-            <img src="assets/img/gallery/gallery8.jpg">
-            <img src="assets/img/gallery/gallery27.jpg">
-            <img src="assets/img/gallery/gallery3.jpg">
-            <img src="assets/img/gallery/gallery9.jpg">
-            <img src="assets/img/gallery/gallery19.jpg">
-            <img src="assets/img/gallery/gallery13.jpg">
-            <img src="assets/img/gallery/gallery31.jpg">
-            <img src="assets/img/gallery/gallery22.jpg">
-          </div>
-          <div class="column">
-            <img src="assets/img/gallery/gallery18.jpg">
-            <img src="assets/img/gallery/gallery11.jpg">
-            <img src="assets/img/gallery/gallery32.jpg">
-            <img src="assets/img/gallery/gallery21.jpg">
-            <img src="assets/img/gallery/gallery23.jpg">
-            <img src="assets/img/gallery/gallery12.jpg">
-            <img src="assets/img/gallery/gallery26.jpg">
-            <img src="assets/img/gallery/gallery24.jpg">
+          <div class="column col-md-4">
+            <img src="assets/img/gallery/gallery8.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery32.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery21.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery27.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery3.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery9.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery19.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery13.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery31.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery22.jpg" class="rounded">
+            <img src="assets/img/gallery/gallery26.jpg" class="rounded">
           </div>
         </div>
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-map-marked-alt sest-orange mb-2"></i>
+                              <h4 class="text-uppercase m-0">Address</h4>
+                              <hr class="my-4" />
+                              <div class="small text-black-50">3721 Swinburne Street, Pittsburgh PA, 15213</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-envelope sest-orange mb-2"></i>
+                              <h4 class="text-uppercase m-0">Email</h4>
+                              <hr class="my-4" />
+                              <div class="small text-black-50">Sestilinursery@gmail.com</div>
+                              <script>
+                                function copyUrl(){
+                                    var copiedText = document.getElementById("email-url");
+                                    copiedText.select();
+                                    copiedText.setSelectionRange(0, 99999); // For mobile
+                                    document.execCommand("copy");
+                                    alert("Copied");
+                                }
+                              </script>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-mobile-alt sest-orange mb-2"></i>
+                              <h4 class="text-uppercase m-0">Phone</h4>
+                              <hr class="my-4" />
+                              <div class="small text-black-50">+1 (412) 681-1200</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Sestili Nursery Inc. 2021</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Sestili Nursery Inc. 2023</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
